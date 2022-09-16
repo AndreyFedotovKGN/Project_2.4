@@ -28,8 +28,7 @@ public class Main {
             } catch (WrongLoginException e) {
                 System.out.println("Password не может отличаться от confirmPassword");
             }
-        }
-        System.out.println("Пользователь зарегистрирован");
+        } else System.out.println("Пользователь зарегистрирован");
         return true;
     }
 
